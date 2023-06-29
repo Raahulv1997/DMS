@@ -27,6 +27,6 @@ app.use(express.static("public"));
 app.use(clientRouter);
 app.use(usersRouter);
 app.use(documentRouter);
-app.listen(8888, () => {
+app.listen(8080, () => {
   console.log(`server is running at ${process.env.SERVERPORT}`);
 });
