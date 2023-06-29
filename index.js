@@ -28,5 +28,5 @@ app.use(clientRouter);
 app.use(usersRouter);
 app.use(documentRouter);
 app.listen(8080, () => {
-  console.log(`server is running at ${process.env.SERVERPORT}`);
+  console.log(`server is running at 8080`);
 });
